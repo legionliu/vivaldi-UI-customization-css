@@ -1,0 +1,20 @@
+#footer,
+.dashboard-widget,
+/*.startpage-content,*/
+#panels-container,
+.UrlBar-AddressField,
+#tabs-tabbar-container,
+.mainbar{
+  background-color: rgba(0, 0, 0, 0.427) !important;
+  backdrop-filter: blur(20px) !important;
+}
+.transparent-tabbar:not(.acc-dark.bg-dark.color-accent-from-page.color-behind-tabs-on) .tab{
+  color:#f6f6f6;
+}
+.window-buttongroup.on-mainbar{
+  background-color: rgba(132, 132, 132, 0.056) !important;
+  backdrop-filter: blur(20px) !important;
+}
+.mainbar{
+  z-index: 10;
+}
